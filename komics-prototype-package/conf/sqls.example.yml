@@ -1,0 +1,8 @@
+# 程序中用到的SQL语句
+# 例子
+# query-user-by-username-and-password: select * from user where username=:username and password=:password
+# 多行的例子
+# report-monthly-transaction-report: >
+# select count(1), sum(xx)
+# from aa a left join bb n on a.id = b.aid
+# lfet join cc c on c.aid = a.id

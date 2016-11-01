@@ -1,0 +1,2 @@
+query-by-username-and-password: "select * from user where username=:username and password=:password"
+check-username-exists: "select count(1) from user where username=:username"
